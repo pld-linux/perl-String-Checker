@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	Checker
+%define		pdir	String
+%define		pnam	Checker
 Summary:	String::Checker - an extensible string validation module
 Summary(pl):	String::Checker - rozszerzalny modu³ sprawdzaj±cy poprawno¶æ ³añcuchów
 Name:		perl-String-Checker
