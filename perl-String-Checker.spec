@@ -10,7 +10,8 @@ Summary(pl):	String::Checker - rozszerzalny modu³ sprawdzaj±cy poprawno¶æ ³añcuc
 Name:		perl-String-Checker
 Version:	0.03
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d7187638b490464c209f6d132450f0cb
