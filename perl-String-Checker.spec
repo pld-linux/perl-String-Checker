@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Checker
 Summary:	String::Checker - an extensible string validation module
-Summary(pl):	String::Checker - rozszerzalny modu³ sprawdzaj±cy poprawno¶æ ³añcuchów
+Summary(pl.UTF-8):   String::Checker - rozszerzalny moduÅ‚ sprawdzajÄ…cy poprawnoÅ›Ä‡ Å‚aÅ„cuchÃ³w
 Name:		perl-String-Checker
 Version:	0.03
 Release:	3
@@ -27,11 +27,11 @@ set of expectations. It contains a number of pre-defined expectations
 which can be used, and can also be extended to perform any arbitrary
 match or modification on a string.
 
-%description -l pl
-To jest bardzo prosta biblioteka do sprawdzania ³añcucha pod k±tem
-podanego zestawu oczekiwañ. Zawiera wiele predefiniowanych oczekiwañ,
-które mog± byæ u¿yte, a tak¿e rozszerzone tak, aby przeprowadziæ
-dowolne dopasowanie lub modyfikacjê ³añcucha.
+%description -l pl.UTF-8
+To jest bardzo prosta biblioteka do sprawdzania Å‚aÅ„cucha pod kÄ…tem
+podanego zestawu oczekiwaÅ„. Zawiera wiele predefiniowanych oczekiwaÅ„,
+ktÃ³re mogÄ… byÄ‡ uÅ¼yte, a takÅ¼e rozszerzone tak, aby przeprowadziÄ‡
+dowolne dopasowanie lub modyfikacjÄ™ Å‚aÅ„cucha.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
