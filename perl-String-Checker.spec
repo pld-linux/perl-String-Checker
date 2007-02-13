@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Checker
 Summary:	String::Checker - an extensible string validation module
-Summary(pl.UTF-8):   String::Checker - rozszerzalny moduł sprawdzający poprawność łańcuchów
+Summary(pl.UTF-8):	String::Checker - rozszerzalny moduł sprawdzający poprawność łańcuchów
 Name:		perl-String-Checker
 Version:	0.03
 Release:	3
