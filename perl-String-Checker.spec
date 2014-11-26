@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	String
 %define		pnam	Checker
+%include	/usr/lib/rpm/macros.perl
 Summary:	String::Checker - an extensible string validation module
 Summary(pl.UTF-8):	String::Checker - rozszerzalny moduł sprawdzający poprawność łańcuchów
 Name:		perl-String-Checker
@@ -15,9 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d7187638b490464c209f6d132450f0cb
+URL:		http://search.cpan.org/dist/String-Checker/
 BuildRequires:	perl-devel >= 1:5.8.0
-%{?with_tests:BuildRequires:	perl-Date-Manip}
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Date-Manip
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
