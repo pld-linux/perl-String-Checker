@@ -4,7 +4,6 @@
 
 %define		pdir	String
 %define		pnam	Checker
-%include	/usr/lib/rpm/macros.perl
 Summary:	String::Checker - an extensible string validation module
 Summary(pl.UTF-8):	String::Checker - rozszerzalny moduł sprawdzający poprawność łańcuchów
 Name:		perl-String-Checker
